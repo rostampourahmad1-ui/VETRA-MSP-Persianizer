@@ -25,6 +25,9 @@ test-results/
 coverage/
 logs/
 *.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
 # Microsoft Project working files
 *.mpp.lock
