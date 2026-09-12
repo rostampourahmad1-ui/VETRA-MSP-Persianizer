@@ -1,0 +1,31 @@
+# Build artifacts
+bin/
+obj/
+dist/
+build/
+
+# IDE and OS
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.snk
+
+# Test and diagnostic output
+test-results/
+coverage/
+logs/
+*.log
+
+# Microsoft Project working files
+*.mpp.lock
+*.tmp
