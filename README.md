@@ -45,6 +45,7 @@ VETRA MSP Persianizer یک لایه بومی‌سازی برای Microsoft Proje
 - `docs/requirements-traceability.md`: ردیابی نیازمندی تا تست و خروجی.
 - `docs/acceptance-tests.md`: معیارهای پذیرش و سناریوهای آزمون.
 - `docs/operations.md`: نصب، انتشار، پشتیبانی، به‌روزرسانی و بازگشت.
+- `docs/test-guide-fa.md`: راهنمای فارسی نصب، راه‌اندازی و آزمایش.
 - `docs/source/VETRAMSPPersianizer.md`: فایل نیازمندی مبنا.
 - `src/`: محل کد محصول پس از انتخاب فناوری و اثبات امکان Extension.
 - `tests/`: تست‌های واحد، قرارداد، یکپارچه‌سازی و سازگاری MPP.
@@ -57,6 +58,8 @@ VETRA MSP Persianizer یک لایه بومی‌سازی برای Microsoft Proje
 ۳. ماتریس نقاط Extension را با شواهد نسخه واقعی MSP تکمیل کنید.
 ۴. نمونه فنی کوچک برای خواندن/نوشتن فیلدها، ترجمه یک View و بازکردن مجدد MPP بسازید.
 ۵. پیش از توسعه گسترده، معیارهای `docs/acceptance-tests.md` را به تست قابل اجرا تبدیل کنید.
+
+برای اجرای آزمایش فعلی، راهنمای [نصب و آزمایش فارسی](docs/test-guide-fa.md) را دنبال کنید. هسته مستقل آماده آزمایش است؛ اتصال کامل به MSP 2024 به محیط Windows دارای Project 2024 و Adapter واقعی نیاز دارد.
 
 ## مجوز و مالکیت
 

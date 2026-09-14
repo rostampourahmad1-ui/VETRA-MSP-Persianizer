@@ -19,6 +19,10 @@
 | MPP compatibility | معیار آزمون تعریف شده | اجرای نهایی روی Windows/MSP لازم است |
 | Installer/Update | در نقشه‌راه | پس از تثبیت Adapter |
 
+| Project Wizard | پیاده‌سازی هسته | قالب ساختمانی و عمومی، بدون ایجاد Task در MSP تا Adapter واقعی متصل شود |
+| Persian Reporting | پیاده‌سازی هسته | خروجی JSON و CSV از Snapshotهای MSP |
+| CLI Diagnostics | پیاده‌سازی هسته | تبدیل تاریخ، Wizard و گزارش سلامت Fake/Unsupported |
+
 در فاز بعدی، `FakeMspAdapter` برای توسعه و تست بدون Project اضافه شده است. `HolidayCatalog` داده تعطیلات را نسخه‌دار و قابل بارگذاری می‌کند. `DiagnosticsReport` فقط اطلاعات محیط و نسخه‌ها را گزارش می‌دهد و داده پروژه را جمع‌آوری نمی‌کند.
 
 ## ریسک‌های باز
@@ -27,7 +31,7 @@
 
 ## گام بعدی
 
-گام بعدی ایجاد Adapter ویندوزی با قراردادهای خواندن Task، Resource، Calendar، View و Save/Reload MPP است. این کار به Windows و نصب MSP 2024 نیاز دارد و در محیط Linux فعلی فقط می‌توان قرارداد و Fake Adapter آن را توسعه داد.
+گام بعدی ایجاد Adapter ویندوزی با قراردادهای خواندن Task، Resource، Calendar، View و Save/Reload MPP است. این کار به Windows و نصب MSP 2024 نیاز دارد و در محیط Linux فعلی فقط می‌توان قرارداد و Fake Adapter آن را توسعه داد. راهنمای آزمایش هسته و پیش‌نیاز آزمایش MSP در `docs/test-guide-fa.md` ثبت شده است.
 
 ## منابع
 
