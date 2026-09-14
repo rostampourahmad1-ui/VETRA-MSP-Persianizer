@@ -22,6 +22,8 @@
 | Project Wizard | پیاده‌سازی هسته | قالب ساختمانی و عمومی، بدون ایجاد Task در MSP تا Adapter واقعی متصل شود |
 | Persian Reporting | پیاده‌سازی هسته | خروجی JSON و CSV از Snapshotهای MSP |
 | CLI Diagnostics | پیاده‌سازی هسته | تبدیل تاریخ، Wizard و گزارش سلامت Fake/Unsupported |
+| Windows COM Adapter | اسکلت اولیه | فقط Windows/MSP/pywin32؛ نیازمند تکمیل نگاشت Object Model |
+| MPP Compatibility | هسته مقایسه آماده | مقایسه Snapshot قبل و بعد؛ آزمون واقعی روی MSP باقی است |
 
 در فاز بعدی، `FakeMspAdapter` برای توسعه و تست بدون Project اضافه شده است. `HolidayCatalog` داده تعطیلات را نسخه‌دار و قابل بارگذاری می‌کند. `DiagnosticsReport` فقط اطلاعات محیط و نسخه‌ها را گزارش می‌دهد و داده پروژه را جمع‌آوری نمی‌کند.
 

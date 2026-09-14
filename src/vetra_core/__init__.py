@@ -1,6 +1,7 @@
 """VETRA MSP Persianizer core domain services."""
 
 from .calendar import Holiday, IranianWorkCalendar, WorkInterval
+from .compatibility import CompatibilityReport, compare_task_snapshots
 from .diagnostics import DiagnosticsReport, collect_report
 from .holidays import HolidayCatalog
 from .jalali import JalaliDate, gregorian_to_jalali, jalali_to_gregorian, parse_jalali
@@ -11,6 +12,7 @@ from .settings import VetraSettings
 
 __all__ = [
     "DiagnosticsReport",
+    "CompatibilityReport",
     "Holiday",
     "HolidayCatalog",
     "IranianWorkCalendar",
@@ -21,6 +23,7 @@ __all__ = [
     "VetraSettings",
     "WorkInterval",
     "collect_report",
+    "compare_task_snapshots",
     "apply_plan",
     "build_plan",
     "gregorian_to_jalali",

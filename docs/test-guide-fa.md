@@ -109,6 +109,8 @@ PYTHONPATH=src python3 -m vetra_core.cli wizard "پروژه نمونه"
 
 در این نسخه خروجی‌های JSON و CSV فراهم شده‌اند. خروجی PDF، Excel واقعی، چاپ و Gantt تصویری تا اتصال به Adapter و لایه خروجی Windows در فاز بعدی تکمیل می‌شوند.
 
+جزئیات نصب `pywin32`، اجرای Adapter COM و مقایسه Snapshot قبل و بعد در سند [Integration ویندوزی](windows-integration.md) آمده است.
+
 ## بخش چهارم: آماده‌سازی آزمایش یکپارچه با MSP 2024
 
 برای آزمایش واقعی باید یک رایانه Windows با مشخصات زیر آماده شود:
