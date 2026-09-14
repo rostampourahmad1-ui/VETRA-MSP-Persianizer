@@ -19,6 +19,8 @@
 | MPP compatibility | معیار آزمون تعریف شده | اجرای نهایی روی Windows/MSP لازم است |
 | Installer/Update | در نقشه‌راه | پس از تثبیت Adapter |
 
+در فاز بعدی، `FakeMspAdapter` برای توسعه و تست بدون Project اضافه شده است. `HolidayCatalog` داده تعطیلات را نسخه‌دار و قابل بارگذاری می‌کند. `DiagnosticsReport` فقط اطلاعات محیط و نسخه‌ها را گزارش می‌دهد و داده پروژه را جمع‌آوری نمی‌کند.
+
 ## ریسک‌های باز
 
 دسترسی واقعی به Ribbon، Dialogهای داخلی، Timescale، Gantt و Date Picker ممکن است بین روش‌های VBA، COM، VSTO و Office Add-in متفاوت باشد. قبل از ادعای فارسی‌سازی کامل، باید روی محیط واقعی Microsoft Project 2024 نمونه فنی اجرا شود.
